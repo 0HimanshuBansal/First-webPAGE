@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/formStyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img id="wbBG" src="/images/round_verified_white_24dp.png" alt="verified" srcset="">
+            <div id="txtLogo"> Verified </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <img src="images/round_contact_mail_white_24dp.png" alt="Contact Us" srcset="">
+            <img src="/images/round_contact_support_white_24dp.png" alt="Help" srcset="">
+        </div>
+
+        <div id="divForm">
+            <h3>Enter your details</h3>
+            <form id="form" action="formData.js">
+                <div id="fieldName">
+                    <label for="name">Name</label>
+                    <label for="email">Email</label>
+                    <label for="">Gender</label>
+                    <label for="language">Language</label>
+                </div>
+
+                <div id="inputField">
+                    <input class="inputField" type="text" id="name">
+                    <input class="inputField" type="email" id="email">
+                    <div class="inputField">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="radion Button" id="Male">
+                        <label for="Female">Female</label>
+                        <input type="radio" name="radion Button" id="Female">
+                    </div>
+
+                    <select class="inputField" name="selectLanguage" id="language">
+                        <option value="java">Java</option>
+                        <option value="kotlin" selected>Kotlin</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="python">Python</option>
+                    </select>
+                </div>
+                <div id="btnBlock">
+                    <button id="submit" type="submit" value="Submit Now">Submit</button>
+                    <input id="reset" type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+
+        <div id="bgCredit">
+            Background Photo by <a
+                href="https://unsplash.com/@messisorder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oscar
+                Söderlund</a> on <a
+                href="https://unsplash.com/collections/491836/website-backgrounds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+    </header>
+</body>
