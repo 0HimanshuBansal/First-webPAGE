@@ -4,4 +4,4 @@ I created it to learn some concept of css and its behaviour with variable displa
 
 why created a noob webPAGE - it helps me learn efficiently, and proceed faster :/
 
-ok, why uploaded it here then, as it is useless - You know to look cool, hardly someone gonna read this, only those green blocks matters(personal opinion) :P
+ok, why uploaded it here then, as it is useless - You know to look cool, only those green blocks matters(personal opinion), hardly anyone gonna read this :P
